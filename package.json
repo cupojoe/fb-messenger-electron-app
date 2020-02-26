@@ -1,0 +1,25 @@
+{
+  "name": "messenger-electron-app",
+  "version": "1.0.0",
+  "description": "Messenger Electron wrapper",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . Messenger --platform=darwin --arch=x64 --icon=messenger_icon.icns --overwrite"
+  },
+  "keywords": [
+    "messenger",
+    "facebook",
+    "electron",
+    "app"
+  ],
+  "author": "Joe Fraga",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.2",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "open": "^7.0.2"
+  }
+}
